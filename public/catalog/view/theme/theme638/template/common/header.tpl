@@ -72,6 +72,26 @@
         </a>
     </div>
     <![endif]-->
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.6&appId=456589514493827";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!--Start of Zopim Live Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+$.src="//v2.zopim.com/?3rEhFBg0lqNUnNu52udR3cLrEqmq80uY";z.t=+new Date;$.
+type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+</script>
+<!--End of Zopim Live Chat Script-->
+
     <?php foreach ($analytics as $analytic) { ?>
         <?php echo $analytic; ?>
     <?php } ?>
@@ -117,7 +137,8 @@
 			
 			<div id="logo" class="logo">
 				<?php if ($logo) { ?>
-					<a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive"/></a>
+					<a href="<?php echo $home; ?>"><img style="    height: 85px;
+    margin-top: -15px;" src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive"/></a>
 				<?php } else { ?>
 					<h1> <a href="<?php echo $home; ?>"><?php echo $name; ?></a> </h1>
 				<?php } ?>
