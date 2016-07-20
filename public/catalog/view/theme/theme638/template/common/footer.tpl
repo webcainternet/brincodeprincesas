@@ -106,7 +106,7 @@
     <div class="copyright" style="margin-top: 35px;">
         <div class="container">
             <div style="width: 60%; float: left; padding-top: 5px;">
-                <div style="margin-top: 7px;">BRINCO DE BRINCESSAS / CNPJ: 99.999.999/0001-99 © 2016 Todos os direitos reservados</div>
+                <div style="margin-top: 7px;">BRINCO DE BRINCESSAS © 2016 Todos os direitos reservados</div>
                 <?php /* <div>Rua Sirimbura, 294 Vila Ema - São José dos Campos - SP - CEP: 12210-000</div> */ ?>
             </div>
 
