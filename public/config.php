@@ -1,9 +1,9 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://brincodeprincesas.homolog.lojavirtual.digital/');
+define('HTTP_SERVER', 'http://brincodeprincesas.com.br/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://brincodeprincesas.homolog.lojavirtual.digital/');
+define('HTTPS_SERVER', 'http://brincodeprincesas.com.br/');
 
 // DIR
 define('DIR_APPLICATION', '/srv/httpd/brincodeprincesas.com.br/public/catalog/');
