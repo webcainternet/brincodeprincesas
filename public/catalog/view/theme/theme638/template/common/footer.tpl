@@ -49,13 +49,13 @@
         </div>
 
 
-        <div class="col-sm-4">  
+        <div class="col-sm-4">
             <h5>Siga-nos</h5>
 
             <div class="fb-page" data-href="https://www.facebook.com/brincodprincesa/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/brincodprincesa/"><a href="https://www.facebook.com/brincodprincesa/">LojaVirtual .digital</a></blockquote></div></div>
 
 <?php /*
-        <div class="col-sm-4" style="text-align: right;">  
+        <div class="col-sm-4" style="text-align: right;">
 
             <h5 style="font-size: 16px; text-align: left; margin-top: 15px;">Formas de Pagamento</h5>
             <ul class="list-unstyled">
@@ -75,14 +75,14 @@
                 <li class="fax"><?php echo $fax; ?></li>
             </ul>
             <ul class="list-unstyled social">
-                <li><a data-toggle="tooltip" title="<?php echo $text_fb; ?>" href="https://www.facebook.com/login/"><i class="fa fa-facebook"></i></a></li> 
+                <li><a data-toggle="tooltip" title="<?php echo $text_fb; ?>" href="https://www.facebook.com/login/"><i class="fa fa-facebook"></i></a></li>
                 <li><a data-toggle="tooltip" title="<?php echo $text_twi; ?>" href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
                 <li><a data-toggle="tooltip" title="<?php echo $text_rss; ?>" href=""><i class="fa fa-rss"></i></a></li>
             </ul>
 
         </div>
 */ ?>
-    
+
         </div>
 
         <div style="float: left; width: 800px; margin-left: 15px;">
@@ -101,13 +101,13 @@
         </div>
 
     </div>
-    
+
   </div>
     <div class="copyright" style="margin-top: 35px;">
         <div class="container">
             <div style="width: 60%; float: left; padding-top: 5px;">
-                <div>BRINCO DE BRINCESSAS / CNPJ: 99.999.999/0001-99 © 2016 Todos os direitos reservados</div>
-                <div>Rua Sirimbura, 294 Vila Ema - São José dos Campos - SP - CEP: 12210-000</div>
+                <div style="margin-top: 7px;">BRINCO DE BRINCESSAS / CNPJ: 99.999.999/0001-99 © 2016 Todos os direitos reservados</div>
+                <?php /* <div>Rua Sirimbura, 294 Vila Ema - São José dos Campos - SP - CEP: 12210-000</div> */ ?>
             </div>
 
             <div style="width: 40%; float: left; text-align: right;">
@@ -125,7 +125,7 @@
                 <span style="font-weight:bold; font-size:7pt">SSL</span></a>
 
             </div>
-        </div> 
+        </div>
 
     </div>
 </footer>
