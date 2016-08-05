@@ -266,3 +266,15 @@
 2016-07-25 13:42:11 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
 2016-07-25 13:42:12 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
 2016-07-27 12:56:17 - PHP Notice:  Undefined variable: category_search_article in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\admin\view\template\module\tm_blog_category.tpl on line 68
+2016-08-05 15:43:18 - PHP Notice:  Undefined variable: whish_list in /Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/theme638/template/common/header.tpl on line 91
+2016-08-05 15:43:18 - PHP Notice:  Undefined variable: whish_list in /Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/theme638/template/common/header.tpl on line 91
+2016-08-05 15:56:58 - MERCADOLIVRE Module --> Starting install
+2016-08-05 15:56:58 - MERCADOLIVRE Module --> Created oc_mercadolivre_product table
+2016-08-05 15:56:58 - MERCADOLIVRE Module --> Created oc_mercadolivre_category table
+2016-08-05 15:56:58 - MERCADOLIVRE Module --> Created oc_mercadolivre_status table
+2016-08-05 15:56:58 - MERCADOLIVRE Module --> Created oc_mercadolivre_listing_type table
+2016-08-05 15:56:58 - MERCADOLIVRE Module --> Created oc_mercadolivre_order table
+2016-08-05 15:56:59 - MERCADOLIVRE Module --> Created oc_mercadolivre_attr_combination table
+2016-08-05 15:56:59 - MERCADOLIVRE Module --> Created oc_mercadolivre_attribute table
+2016-08-05 15:56:59 - MERCADOLIVRE Module --> Created oc_mercadolivre_api_call table
+2016-08-05 15:56:59 - MERCADOLIVRE Module --> Completed install

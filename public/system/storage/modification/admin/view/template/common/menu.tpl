@@ -26,6 +26,14 @@
       <li><a href="<?php echo $analytics; ?>"><?php echo $text_analytics; ?></a></li>
       <li><a href="<?php echo $captcha; ?>"><?php echo $text_captcha; ?></a></li>
       <li><a href="<?php echo $feed; ?>"><?php echo $text_feed; ?></a></li>
+
+			<li><a class="parent"><?php echo $text_mercadolivre_extension; ?></a>
+                <ul>
+                    <li><a href="<?php echo $mercadolivre_link_extension; ?>"><?php echo $text_mercadolivre_dashboard; ?></a></li>
+                    <li><a href="<?php echo $mercadolivre_link_setting; ?>"><?php echo $text_mercadolivre_setting; ?></a></li>
+                </ul>
+            </li>
+            
       <li><a href="<?php echo $fraud; ?>"><?php echo $text_fraud; ?></a></li>
       <li><a href="<?php echo $module; ?>"><?php echo $text_module; ?></a></li>
       <li><a href="<?php echo $payment; ?>"><?php echo $text_payment; ?></a></li>

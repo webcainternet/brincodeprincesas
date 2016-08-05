@@ -109,3 +109,8 @@ $_['text_paypal_manage']               = 'PayPal';
                $_['text_simple_blog_view_report'] = 'Report';
            
 $_['text_paypal_search']               = 'Search';
+
+			    $_['text_mercadolivre_extension']    = 'Mercadolivre';
+			    $_['text_mercadolivre_dashboard']    = 'Dashboard';
+				$_['text_mercadolivre_setting']    = 'Setting';
+			

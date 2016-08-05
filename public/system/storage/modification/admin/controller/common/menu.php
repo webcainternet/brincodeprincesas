@@ -110,6 +110,13 @@ class ControllerCommonMenu extends Controller {
 		$data['text_openbay_report_price'] = $this->language->get('text_openbay_report_price');
 		$data['text_openbay_order_import'] = $this->language->get('text_openbay_order_import');
 
+			    $data['text_mercadolivre_extension']       = $this->language->get('text_mercadolivre_extension');
+				$data['text_mercadolivre_dashboard']       = $this->language->get('text_mercadolivre_dashboard');
+				$data['text_mercadolivre_setting']       = $this->language->get('text_mercadolivre_setting');
+				$data['mercadolivre_link_extension']           = $this->url->link('module/mercadolivre', 'token=' . $this->session->data['token'], 'SSL');
+			    $data['mercadolivre_link_setting']              = $this->url->link('module/mercadolivre/setting', 'token=' . $this->session->data['token'], 'SSL');
+			
+
                $data['text_simple_blogs'] = $this->language->get('text_simple_blogs');
                $data['text_simple_blog_author'] = $this->language->get('text_simple_blog_author');
                $data['text_simple_blog_category'] = $this->language->get('text_simple_blog_category');

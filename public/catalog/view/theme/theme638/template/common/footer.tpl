@@ -1,8 +1,10 @@
 <footer>
     <div class="container">
         <div class="row">
-			<div class="col-sm-12">
-				<?php if ($logo) { ?>
+			<div class="col-sm-12" style="height: 35px;">
+<?php /* REMOVIDO TELEFONE LOGO E HORARIO DE ATENDIMENTO
+
+        <?php if ($logo) { ?>
 					<a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive"/></a>
 				<?php } else { ?>
 					<h1>
@@ -13,6 +15,7 @@
 				<div class="phone"> <span><?php echo $text_phone; ?></span> <?php echo $telephone; ?> </div>
 
 				<?php if ($open_shop) { ?> <div class="open-block"><?php echo $open_shop; ?> </div><?php } ?>
+*/ ?>
 
 				<div class="newsletter-block"></div>
 
@@ -31,7 +34,7 @@
                                 <li>
                                     <a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a>
                                 </li>
-                            <?php } ?>                            
+                            <?php } ?>
                         </ul>
                     </div>
                 <?php } ?>

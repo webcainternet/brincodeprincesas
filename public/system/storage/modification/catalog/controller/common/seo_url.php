@@ -20,6 +20,11 @@ class ControllerCommonSeoUrl extends Controller {
 
 				if ($query->num_rows) {
 					$url = explode('=', $query->row['query']);
+ if ($url[0] == 'mercadolivre') {
+						$this->request->get['route'] = 'mercadolivre/'.$url[1];
+						break;
+					  }
+					
 
 					if ($url[0] == 'product_id') {
 						$this->request->get['product_id'] = $url[1];

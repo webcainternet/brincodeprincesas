@@ -621,7 +621,8 @@ header {
   header .logo, header .nav {
     float: left; }
   header .logo {
-    margin: 0 20px 24px 0; }
+    margin: 0 20px 24px 0;
+    max-width: 215px }
   header .button-top {
     float: right;
     margin-top: 8px; }
@@ -1286,6 +1287,7 @@ header .fl-soft-icons-menu31.active {
 
 /*================  Cart  ===============*/
 .cart {
+  margin-top: 20px;
   position: relative;
   text-align: left; }
   .cart > button {
@@ -2665,16 +2667,16 @@ input[type="checkbox"][name="agree"] + label {
     position: relative;
     float: left; }
     .nav__primary .menu > li + li {
-      margin-left: 50px; }
+      margin-left: 30px; }
 
 .nav__primary {
   display: inline-block;
   padding: 0;
-  margin: 13px 0 0;
+  margin: 35px 0 0;
   position: relative;
   z-index: 5;
   text-align: left;
-  margin-left: 6%; }
+  margin-left: 0px; }
   .nav__primary ul {
     list-style: none;
     margin: 0;
@@ -2690,7 +2692,7 @@ input[type="checkbox"][name="agree"] + label {
   .nav__primary .menu li a {
     color: #888;
     text-transform: uppercase;
-    font-weight: 300; }
+    font-weight: 400; }
   .nav__primary .menu li.sfHover > a,
   .nav__primary .menu li > a:hover,
   .nav__primary .menu li > a.active {
@@ -2814,7 +2816,7 @@ input[type="checkbox"][name="agree"] + label {
 /*==================  Stuck menu  ======================*/
 .stuck-menu {
   width: auto !important;
-  padding: 24px 35px 0 39px; }
+  padding: 20px 35px 0 39px; }
   .stuck-menu.scroll-fix {
     padding-top: 9px;
     border-bottom: 1px solid #ebebe6; }
@@ -5344,7 +5346,7 @@ input#input-coupon {
 footer {
   background: #f6f6f4;
   position: relative;
-  padding-top: 0px;
+  padding-top: 30px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
