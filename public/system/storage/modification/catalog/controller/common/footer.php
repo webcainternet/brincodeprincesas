@@ -87,20 +87,7 @@ class ControllerCommonFooter extends Controller {
 			$data['open_shop'] = $this->config->get('config_open');
 			
 
-		// $data['powered'] = sprintf($this->language->get('text_powered'), date('Y', time())); 
-
-						if(($this->config->has('config_simple_blog_status')) && ($this->config->get('config_simple_blog_status'))) {
-				    $data['simple_blog_found'] = 1;
-                    $tmp = $this->config->get('config_simple_blog_footer_heading');
-				    if (!empty($tmp)) {
-				        $data['simple_blog_footer_heading'] = $this->config->get('config_simple_blog_footer_heading');
-				    } else {
-				        $data['simple_blog_footer_heading'] = $this->language->get('text_simple_blog');
-				    }
-                    $data['simple_blog']	= $this->url->link('simple_blog/article');
-				}
-			
-		$data['powered'] = 'Desenvolvido por <a href="http://lojavirtual.digital" target="_blank">LojaVirtual.digital</a> - Brinco de Princesas © ' . date('Y', time());
+		 $data['powered'] = sprintf($this->language->get('text_powered'), date('Y', time())); 
 
 						if(($this->config->has('config_simple_blog_status')) && ($this->config->get('config_simple_blog_status'))) {
 				    $data['simple_blog_found'] = 1;

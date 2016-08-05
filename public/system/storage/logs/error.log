@@ -1,72 +1,268 @@
-2016-05-04 2:52:16 - PHP Warning:  Invalid argument supplied for foreach() in /Users/fernandomendes/github/brincodeprincesas/public/admin/controller/extension/installer.php on line 333
-2016-05-04 2:52:16 - PHP Warning:  Invalid argument supplied for foreach() in /Users/fernandomendes/github/brincodeprincesas/public/admin/controller/extension/installer.php on line 333
-2016-05-04 2:52:34 - PHP Warning:  Invalid argument supplied for foreach() in /Users/fernandomendes/github/brincodeprincesas/public/admin/controller/extension/installer.php on line 333
-2016-05-04 2:52:34 - PHP Warning:  Invalid argument supplied for foreach() in /Users/fernandomendes/github/brincodeprincesas/public/admin/controller/extension/installer.php on line 333
-2016-05-04 3:42:24 - PHP Notice:  Undefined variable: description in /Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/theme638/template/module/tm_newsletter.tpl on line 7
-2016-05-04 3:42:24 - PHP Notice:  Undefined variable: html in /Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/theme638/template/module/tm_newsletter_popup.tpl on line 18
-2016-05-04 3:42:24 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-04 3:42:25 - PHP Notice:  Undefined variable: description in /Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/theme638/template/module/tm_newsletter.tpl on line 7
-2016-05-04 3:42:25 - PHP Notice:  Undefined variable: html in /Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/theme638/template/module/tm_newsletter_popup.tpl on line 18
-2016-05-04 3:42:25 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-04 3:42:49 - PHP Notice:  Undefined variable: description in /Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/theme638/template/module/tm_newsletter.tpl on line 7
-2016-05-04 3:42:49 - PHP Notice:  Undefined variable: html in /Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/theme638/template/module/tm_newsletter_popup.tpl on line 18
-2016-05-04 3:42:49 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-04 3:42:49 - PHP Notice:  Undefined variable: description in /Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/theme638/template/module/tm_newsletter.tpl on line 7
-2016-05-04 3:42:49 - PHP Notice:  Undefined variable: html in /Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/theme638/template/module/tm_newsletter_popup.tpl on line 18
-2016-05-04 3:42:49 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-04 3:46:00 - PHP Notice:  Undefined variable: description in /Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/theme638/template/module/tm_newsletter.tpl on line 7
-2016-05-04 3:46:00 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-04 3:46:00 - PHP Notice:  Undefined variable: description in /Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/theme638/template/module/tm_newsletter.tpl on line 7
-2016-05-04 3:46:00 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:49:05 - PHP Notice:  Undefined variable: description in /Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/theme638/template/module/tm_newsletter.tpl on line 7
-2016-05-05 4:49:05 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:49:06 - PHP Notice:  Undefined variable: description in /Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/theme638/template/module/tm_newsletter.tpl on line 7
-2016-05-05 4:49:06 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:49:06 - PHP Notice:  Undefined variable: description in /Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/theme638/template/module/tm_newsletter.tpl on line 7
-2016-05-05 4:49:06 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:49:16 - PHP Notice:  Undefined variable: description in /Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/theme638/template/module/tm_newsletter.tpl on line 7
-2016-05-05 4:49:16 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:49:17 - PHP Notice:  Undefined variable: description in /Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/theme638/template/module/tm_newsletter.tpl on line 7
-2016-05-05 4:49:17 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:49:18 - PHP Notice:  Undefined variable: description in /Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/theme638/template/module/tm_newsletter.tpl on line 7
-2016-05-05 4:49:18 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:49:29 - PHP Notice:  Undefined variable: description in /Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/theme638/template/module/tm_newsletter.tpl on line 7
-2016-05-05 4:49:29 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:49:52 - PHP Notice:  Undefined variable: description in /Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/theme638/template/module/tm_newsletter.tpl on line 7
-2016-05-05 4:49:52 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:49:52 - PHP Notice:  Undefined variable: description in /Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/theme638/template/module/tm_newsletter.tpl on line 7
-2016-05-05 4:49:52 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:50:34 - PHP Notice:  Undefined variable: languages in /Users/fernandomendes/github/brincodeprincesas/public/admin/view/template/module/olark.tpl on line 64
-2016-05-05 4:50:34 - PHP Warning:  Invalid argument supplied for foreach() in /Users/fernandomendes/github/brincodeprincesas/public/admin/view/template/module/olark.tpl on line 64
-2016-05-05 4:50:35 - PHP Notice:  Undefined variable: languages in /Users/fernandomendes/github/brincodeprincesas/public/admin/view/template/module/olark.tpl on line 64
-2016-05-05 4:50:35 - PHP Warning:  Invalid argument supplied for foreach() in /Users/fernandomendes/github/brincodeprincesas/public/admin/view/template/module/olark.tpl on line 64
-2016-05-05 4:50:54 - PHP Notice:  Undefined variable: category_search_article in /Users/fernandomendes/github/brincodeprincesas/public/admin/view/template/module/tm_blog_category.tpl on line 68
-2016-05-05 4:50:54 - PHP Notice:  Undefined variable: category_search_article in /Users/fernandomendes/github/brincodeprincesas/public/admin/view/template/module/tm_blog_category.tpl on line 68
-2016-05-05 4:53:05 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:53:05 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:53:05 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:53:06 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:53:06 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:55:12 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:55:12 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:55:12 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:55:12 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:55:13 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:57:07 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:57:07 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:57:08 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:57:09 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:58:01 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:58:01 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:58:02 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:58:02 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:58:02 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:59:32 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:59:32 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:59:32 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:59:33 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 4:59:33 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 90
-2016-05-05 5:02:31 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 103
-2016-05-05 5:02:32 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 103
-2016-05-05 5:02:32 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 103
-2016-05-05 5:02:32 - PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/catalog/controller/common/footer.php on line 103
+2016-07-15 15:40:04 - PHP Notice:  Undefined variable: languages in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\admin\view\template\module\olark.tpl on line 64
+2016-07-15 15:40:04 - PHP Warning:  Invalid argument supplied for foreach() in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\admin\view\template\module\olark.tpl on line 64
+2016-07-15 15:43:02 - PHP Notice:  Undefined variable: languages in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\admin\view\template\module\olark.tpl on line 64
+2016-07-15 15:43:02 - PHP Warning:  Invalid argument supplied for foreach() in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\admin\view\template\module\olark.tpl on line 64
+2016-07-15 15:43:37 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-15 15:43:37 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-15 15:43:37 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-15 15:43:37 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-15 15:43:37 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-15 15:43:37 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-15 15:43:38 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-15 15:43:38 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-15 15:43:38 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-15 15:44:08 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-15 15:44:08 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-15 15:44:08 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-15 15:44:09 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-15 15:44:09 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-15 15:44:09 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-15 15:44:37 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-15 15:44:37 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-15 15:44:37 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-15 15:44:38 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-15 15:44:38 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-15 15:44:38 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-15 15:45:29 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-15 15:45:29 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-15 15:45:29 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-15 15:45:30 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-15 15:45:30 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-15 15:45:30 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-15 15:45:30 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-15 15:45:30 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-15 15:45:30 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-15 15:45:39 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-15 15:45:39 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-15 15:45:39 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-15 15:45:40 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-15 15:45:40 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-15 15:45:40 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-15 15:53:58 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-15 15:53:58 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-15 15:53:58 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-15 15:53:58 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-15 15:53:58 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-15 15:53:58 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-15 15:53:59 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-15 15:53:59 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-15 15:53:59 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-15 16:38:43 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-15 16:38:43 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-15 16:38:43 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-15 16:38:44 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-15 16:38:44 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-15 16:38:44 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:08:19 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-18 11:08:20 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-18 11:08:20 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:08:22 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-18 11:08:22 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-18 11:08:22 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:08:24 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-18 11:08:24 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-18 11:08:24 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:19:20 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-18 11:19:20 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-18 11:19:20 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:19:20 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-18 11:19:20 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-18 11:19:20 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:19:21 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-18 11:19:21 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-18 11:19:21 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:19:29 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-18 11:19:29 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-18 11:19:29 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:19:30 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-18 11:19:30 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-18 11:19:30 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:19:31 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-18 11:19:31 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-18 11:19:31 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:19:49 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-18 11:19:49 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-18 11:19:49 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:19:50 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-18 11:19:50 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-18 11:19:50 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:19:50 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-18 11:19:50 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-18 11:19:50 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:20:36 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-18 11:20:36 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-18 11:20:36 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:20:37 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-18 11:20:37 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-18 11:20:37 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:20:38 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-18 11:20:38 - PHP Notice:  Undefined variable: html in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter_popup.tpl on line 18
+2016-07-18 11:20:38 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:21:30 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-18 11:21:31 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:21:31 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-18 11:21:31 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:21:32 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-18 11:21:32 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:21:41 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-18 11:21:41 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:21:42 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-18 11:21:42 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:21:42 - PHP Notice:  Undefined variable: description in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\template\module\tm_newsletter.tpl on line 7
+2016-07-18 11:21:42 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:23:06 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:23:07 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:23:08 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:23:23 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:23:24 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:23:24 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-18 11:25:31 - PHP Notice:  Undefined variable: category_search_article in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\admin\view\template\module\tm_blog_category.tpl on line 68
+2016-07-18 11:25:35 - PHP Notice:  Undefined variable: category_search_article in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\admin\view\template\module\tm_blog_category.tpl on line 68
+2016-07-18 11:26:07 - PHP Notice:  Undefined variable: languages in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\admin\view\template\module\olark.tpl on line 64
+2016-07-18 11:26:07 - PHP Warning:  Invalid argument supplied for foreach() in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\admin\view\template\module\olark.tpl on line 64
+2016-07-18 11:26:13 - PHP Notice:  Undefined variable: languages in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\admin\view\template\module\olark.tpl on line 64
+2016-07-18 11:26:13 - PHP Warning:  Invalid argument supplied for foreach() in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\admin\view\template\module\olark.tpl on line 64
+2016-07-19 11:20:42 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-19 11:20:43 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-19 11:20:44 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:07:04 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:07:06 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:07:06 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:07:29 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:29 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:07:30 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:09:47 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:09:47 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:47 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:47 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:47 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:47 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:47 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:47 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:47 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:47 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:47 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:47 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:47 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:47 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:47 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:47 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:47 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:47 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:47 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:47 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:47 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:48 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:09:48 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:48 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:48 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:48 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:48 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:48 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:48 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:48 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:48 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:48 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:48 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:48 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:48 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:48 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:48 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:48 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:48 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:48 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:48 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:48 - PHP Warning:  Division by zero in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\view\theme\theme638\parcelamento.php on line 43
+2016-07-20 17:09:49 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:10:04 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:10:05 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:10:05 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:10:58 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:10:59 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:11:00 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:12:56 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:12:56 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:13:51 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:13:51 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:13:52 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:18:34 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:18:35 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:18:35 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:22:45 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:22:45 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:22:49 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:22:50 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:54:36 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:54:38 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:54:38 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:57:46 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:57:47 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:57:47 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:58:33 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:58:33 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 17:58:33 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 18:30:57 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 18:30:58 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 18:30:59 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 18:31:09 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 18:31:10 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-20 18:31:11 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-21 12:10:45 - PHP Notice:  Undefined variable: category_search_article in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\admin\view\template\module\tm_blog_category.tpl on line 68
+2016-07-21 12:10:51 - PHP Notice:  Undefined variable: category_search_article in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\admin\view\template\module\tm_blog_category.tpl on line 68
+2016-07-21 12:13:03 - PHP Notice:  Undefined variable: category_search_article in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\admin\view\template\module\tm_blog_category.tpl on line 68
+2016-07-21 12:15:53 - PHP Notice:  Undefined variable: category_search_article in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\admin\view\template\module\tm_blog_category.tpl on line 68
+2016-07-21 12:24:28 - PHP Notice:  Undefined index: article_title in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\controller\simple_blog\article.php on line 363
+2016-07-21 12:28:17 - PHP Notice:  Undefined variable: category_search_article in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\admin\view\template\module\tm_blog_category.tpl on line 68
+2016-07-21 12:28:36 - PHP Notice:  Undefined index: article_title in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\controller\simple_blog\article.php on line 363
+2016-07-21 12:29:08 - PHP Notice:  Undefined variable: category_search_article in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\admin\view\template\module\tm_blog_category.tpl on line 68
+2016-07-21 12:29:30 - PHP Notice:  Undefined index: article_title in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\controller\simple_blog\article.php on line 363
+2016-07-21 12:30:35 - PHP Notice:  Undefined variable: category_search_article in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\admin\view\template\module\tm_blog_category.tpl on line 68
+2016-07-21 12:49:15 - PHP Notice:  Undefined index: article_title in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\controller\simple_blog\article.php on line 363
+2016-07-21 13:07:26 - PHP Notice:  Undefined index: article_title in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\catalog\controller\simple_blog\article.php on line 363
+2016-07-25 13:37:16 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-25 13:37:18 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-25 13:37:18 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-25 13:42:09 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-25 13:42:11 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-25 13:42:12 - PHP Warning:  sprintf(): Too few arguments in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\system\storage\modification\catalog\controller\common\footer.php on line 90
+2016-07-27 12:56:17 - PHP Notice:  Undefined variable: category_search_article in C:\Users\mfoganholo\Documents\GitHub\opencart57564\public\admin\view\template\module\tm_blog_category.tpl on line 68

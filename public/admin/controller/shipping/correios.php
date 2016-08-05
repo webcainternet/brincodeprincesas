@@ -453,12 +453,8 @@ class ControllerShippingCorreios extends Controller {
 		$data['header'] = $this->load->controller('common/header');
 		$data['column_left'] = $this->load->controller('common/column_left');
 		$data['footer'] = $this->load->controller('common/footer');
-		
-		if (version_compare(VERSION, '2.2') < 0) {
-			$this->response->setOutput($this->load->view('shipping/correios.tpl', $data));
-		} else {
-			$this->response->setOutput($this->load->view('shipping/correios', $data));
-		}
+
+		$this->response->setOutput($this->load->view('shipping/correios.tpl', $data));
 	}
 	
 	protected function validate() {

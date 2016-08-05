@@ -25,10 +25,6 @@ class ModelShippingCorreios extends Model {
 
 	private $peso_min 					= 0.3; 	// em kg
 	
-	// altura, largura ou comprimento não podem ser maiores que 105cm
-	private $lados_max 			= 105; // em cm	
-	private $lados_pac_gf_max 	= 150; // em cm	
-	
 	private $nCdServico = array();
 	private $servicos 	= array();
 	
@@ -123,10 +119,6 @@ class ModelShippingCorreios extends Model {
 
 	private function resetServicos() {
 		$this->servicos = array();
-	}
-
-	private function setLadosMax($medida) {
-		$this->lados_max = $medida;
 	}		
 	
 	// função responsável pelo retorno à loja dos valores finais dos valores dos fretes
@@ -157,27 +149,22 @@ class ModelShippingCorreios extends Model {
 			// classes de serviços agrupados conforme suas propriedades. Cada classe é uma chamada ao WebService dos Correios
 			$this->nCdServico['pac_sedex'] =  array(
 					'peso_max' 			=> $this->peso_pac_sedex_max,
-					'lados_max' 		=> $this->lados_max,
 					'cubagem_max' 		=> $this->cubagem_max
 				);
 			$this->nCdServico['sedex10_12_hoje'] = array(
 					'peso_max' 			=> $this->peso_sedex10_12_hoje_max,
-					'lados_max' 		=> $this->lados_max,
 					'cubagem_max' 		=> $this->cubagem_max
 				);		
 			$this->nCdServico['esedex'] = array(
 					'peso_max' 			=> $this->peso_esedex_max,
-					'lados_max' 		=> $this->lados_max,
 					'cubagem_max' 		=> $this->cubagem_max
 				);	
 			$this->nCdServico['pac_gf'] = array(
 					'peso_max' 			=> $this->peso_pac_sedex_max,
-					'lados_max' 		=> $this->lados_pac_gf_max,
 					'cubagem_max' 		=> $this->cubagem_pac_gf_max
 				);
 			$this->nCdServico['sedex_hoje'] = array(
 					'peso_max' 			=> $this->peso_sedex10_12_hoje_max,
-					'lados_max' 		=> $this->lados_max,
 					'cubagem_max' 		=> $this->cubagem_sedex_hoje_max
 				);				
 				
@@ -261,7 +248,6 @@ class ModelShippingCorreios extends Model {
 			foreach($this->nCdServico as $classe => $info){
 				
 				$this->setPesoMax($info['peso_max']);
-				$this->setLadosMax($info['lados_max']);
 				$this->setCubagemMax($info['cubagem_max']);
 				$this->setServicos($servicos[$classe]);
 				
@@ -292,11 +278,7 @@ class ModelShippingCorreios extends Model {
 						// novo custo
 						$this->quote_data[$codigo]['cost'] = $new_cost;
 						// novo texto
-						if (version_compare(VERSION, '2.2') < 0) {
-							$this->quote_data[$codigo]['text'] = $this->currency->format($this->tax->calculate($new_cost, $this->config->get('correios_tax_class_id'), $this->config->get('config_tax')));
-						} else {
-							$this->quote_data[$codigo]['text'] = $this->currency->format($this->tax->calculate($new_cost, $this->config->get('correios_tax_class_id'), $this->config->get('config_tax')), $this->session->data['currency']);
-						}
+						$this->quote_data[$codigo]['text'] = $this->currency->format($this->tax->calculate($new_cost, $this->config->get('correios_tax_class_id'), $this->config->get('config_tax')));
 					}
 					else{
 						// zera o valor do frete do serviço de pagamento na entrega para evitar de ser adiconado ao valor do carrinho
@@ -360,11 +342,7 @@ class ModelShippingCorreios extends Model {
 				}					
 
 				$title = sprintf($this->language->get('text_'.$servico['Codigo']), $servico['PrazoEntrega']);
-				if (version_compare(VERSION, '2.2') < 0) {
-					$text = $this->currency->format($this->tax->calculate($cost, $this->config->get('correios_tax_class_id'), $this->config->get('config_tax')));
-				} else {
-					$text = $this->currency->format($this->tax->calculate($cost, $this->config->get('correios_tax_class_id'), $this->config->get('config_tax')), $this->session->data['currency']);
-				}
+				$text = $this->currency->format($this->tax->calculate($cost, $this->config->get('correios_tax_class_id'), $this->config->get('config_tax')));
 	
 				$this->quote_data[$servico['Codigo']] = array(
 					'code'         => 'correios.' . $servico['Codigo'],
@@ -538,7 +516,7 @@ class ModelShippingCorreios extends Model {
 		$cubagem = (float)$produto['height'] * (float)$produto['width'] * (float)$produto['length'];
 		$peso = (float)$produto['weight'];
 		
-		if(!$peso || $peso > $this->peso_max || !$cubagem || $cubagem > $this->cubagem_max || ($produto['height'] > $this->lados_max) || ($produto['width'] > $this->lados_max) || ($produto['length'] > $this->lados_max)){
+		if(!$peso || $peso > $this->peso_max || !$cubagem || $cubagem > $this->cubagem_max){
 			$this->log->write(sprintf($this->language->get('error_limites'), $produto['name']));
 			
 			return false;
@@ -590,23 +568,14 @@ class ModelShippingCorreios extends Model {
   					// o produto dentro do peso e dimensões estabelecidos pelos Correios
   					if ($peso_dentro_limite && $cubagem_dentro_limite) {
   						
-						if (version_compare(VERSION, '2.1') < 0) {
-							// já existe o mesmo produto na caixa, assim incrementa-se a sua quantidade
-							if (isset($caixas[$cx_num]['produtos'][$prod_copy['key']])) {
-								$caixas[$cx_num]['produtos'][$prod_copy['key']]['quantity']++;
-							}
-							// adiciona o novo produto
-							else {
-								$caixas[$cx_num]['produtos'][$prod_copy['key']] = $prod_copy;
-							}
-						} else {
-							if (isset($caixas[$cx_num]['produtos'][$prod_copy['cart_id']])) {
-								$caixas[$cx_num]['produtos'][$prod_copy['cart_id']]['quantity']++;
-							}
-							else {
-								$caixas[$cx_num]['produtos'][$prod_copy['cart_id']] = $prod_copy;
-							}							
-						}						
+  						// já existe o mesmo produto na caixa, assim incrementa-se a sua quantidade
+  						if (isset($caixas[$cx_num]['produtos'][$prod_copy['key']])) {
+  							$caixas[$cx_num]['produtos'][$prod_copy['key']]['quantity']++;
+  						}
+  						// adiciona o novo produto
+  						else {
+  							$caixas[$cx_num]['produtos'][$prod_copy['key']] = $prod_copy;
+  						}						
 						
 						$caixas[$cx_num]['peso'] = $peso;
 						$caixas[$cx_num]['cubagem'] = $cubagem;
@@ -631,11 +600,7 @@ class ModelShippingCorreios extends Model {
   		$total = 0;
   	
   		foreach ($products as $product) {
-			if (version_compare(VERSION, '2.2') < 0) {
-				$total += $this->currency->format($this->tax->calculate($product['total'], $product['tax_class_id'], $this->config->get('config_tax')), '', '', false);
-			} else {
-				$total += $this->currency->format($this->tax->calculate($product['total'], $product['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency'], '', false);
-			}
+  			$total += $this->currency->format($this->tax->calculate($product['total'], $product['tax_class_id'], $this->config->get('config_tax')), '', '', false);
   		}
   		return $total;
   	}

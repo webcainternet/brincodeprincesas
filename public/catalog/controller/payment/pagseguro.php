@@ -138,17 +138,11 @@ class ControllerPaymentPagseguro extends Controller {
 				$description = utf8_encode(substr(utf8_decode($product['name'].$model.$options), 0, 100));
 			}
 			
-			if (version_compare(VERSION, '2.2') < 0) {
-				$amount = $this->currency->format($product['price'], $order_info['currency_code'], false, false);
-			} else {
-				$amount = $this->currency->format($product['price'], $order_info['currency_code'], $order_info['currency_value'], false);
-			}
-			
 	    	$item = Array(
 				'id' => $product['product_id'],
 				'description' => trim($description),
 				'quantity' => $product['quantity'],
-				'amount' => $amount
+				'amount' => $this->currency->format($product['price'], $order_info['currency_code'], false, false)
 			);
 			
 			// O frete será calculado pelo PagSeguro.
@@ -174,12 +168,8 @@ class ControllerPaymentPagseguro extends Controller {
 		// url para receber notificações sobre o status das transações
 		$paymentRequest->setNotificationURL($this->url->link('payment/pagseguro/callback')); 
 	    
-	    // obtendo frete, descontos e taxas
-		if (version_compare(VERSION, '2.2') < 0) {		
-			$total = $this->currency->format($order_info['total'] - $this->cart->getSubTotal(), $order_info['currency_code'], false, false);
-		} else {
-			$total = $this->currency->format($order_info['total'] - $this->cart->getSubTotal(), $order_info['currency_code'], $order_info['currency_value'], false);
-		}
+	    // obtendo frete, descontos e taxas 
+		$total = $this->currency->format($order_info['total'] - $this->cart->getSubTotal(), $order_info['currency_code'], false, false);
 
 		if ($total > 0) {
 	    	$item = Array(
@@ -208,14 +198,10 @@ class ControllerPaymentPagseguro extends Controller {
 			$this->log->write('PagSeguro :: ' . $e->getOneLineMessage());
 		}		
 		
-		if (version_compare(VERSION, '2.2') < 0) {
-			if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/payment/pagseguro.tpl')) {
-				return $this->load->view($this->config->get('config_template') . '/template/payment/pagseguro.tpl', $data);
-			} else {
-				return $this->load->view('default/template/payment/pagseguro.tpl', $data);
-			}
+		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/payment/pagseguro.tpl')) {
+			return $this->load->view($this->config->get('config_template') . '/template/payment/pagseguro.tpl', $data);
 		} else {
-			return $this->load->view('payment/pagseguro', $data);
+			return $this->load->view('default/template/payment/pagseguro.tpl', $data);
 		}
 	}
 		
@@ -268,11 +254,7 @@ class ControllerPaymentPagseguro extends Controller {
 						
 						// Valor 1: Pac, valor 2: Sedex, valor 3: não especificado ou cálculo não realizado pelo PagSeguro
     		    		if($pagSeguroShippingType->getValue() != 3){
-							if (version_compare(VERSION, '2.2') < 0) {
-								$comment .= "\nTipo de frete escolhido no PagSeguro: " . $pagSeguroShippingType->getTypeFromValue() . "\nValor do frete: " . $this->currency->format($valor_frete, $order['currency_code'], false, false);
-							} else {
-								$comment .= "\nTipo de frete escolhido no PagSeguro: " . $pagSeguroShippingType->getTypeFromValue() . "\nValor do frete: " . $this->currency->format($valor_frete, $order['currency_code'], $order_info['currency_value'], false);
-							}
+    		    			$comment .= "\nTipo de frete escolhido no PagSeguro: " . $pagSeguroShippingType->getTypeFromValue() . "\nValor do frete: " . $this->currency->format($valor_frete, $order['currency_code'], false, false);
     		    		}
 	    
 					    $update_status_alert = false;

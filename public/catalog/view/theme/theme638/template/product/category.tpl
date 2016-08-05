@@ -28,12 +28,12 @@
         <?php } ?>
 	  <?php if ($categories) { ?>
 	  <h3><?php echo $text_refine; ?></h3>
-	  
+
 	  <div class="row">
 		<div >
 		  <ul class="box-subcat">
 			<?php $i=0; foreach ($categories as $category) { $i++; ?>
-				<?php 
+				<?php
 			   $perLine = 4;
 			   $last_line = "";
 							$total = count($products);
@@ -53,7 +53,7 @@
 			<li class="col-sm-3  <?php echo $a. $last_line ;?>">
                 <div class="thumb">
 				<?php if ($category['thumb']) { ?>
-					<div class="image"><a href="<?php echo $category['href']; ?>"><img src="<?php echo $category['thumb']; ?>" alt="<?php echo $category['name']; ?>" /></a></div>					
+					<div class="image"><a href="<?php echo $category['href']; ?>"><img src="<?php echo $category['thumb']; ?>" alt="<?php echo $category['name']; ?>" /></a></div>
 				<?php } ?>
 				<div class="name subcatname"><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></div>
                 </div>
@@ -62,7 +62,7 @@
 		  </ul>
 		</div>
 	  </div>
-	  
+
 	  <?php } ?>
 	  <?php if ($products) { ?>
 		<div class="product-filter clearfix">
@@ -365,11 +365,11 @@
                 <?php } ?>
 			<div class="image">
 				<a class="lazy" style="padding-bottom: <?php echo ($product['img-height']/$product['img-width']*100); ?>%" href="<?php echo $product['href']; ?>"> <img alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-responsive" data-src="<?php echo $product['thumb']; ?>" src="#"/> </a>
-				
+
 				<?php if ($product['special'] ) { ?>
 						<span class="sale"><?php echo $text_sale; ?></span>
 				<?php } ?>
-				<?php 
+				<?php
 				$arr_last = $product['last_array'];
 				foreach( $arr_last as $value ){
 					if ($product['product_id']==$value) {  ?>
@@ -378,7 +378,7 @@
 						}
 					}
 				?>
-				
+
 			</div>
 				<div class="caption">
 					<div class="name name-product"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></div>
@@ -393,13 +393,14 @@
 							<?php } else { ?>
 								<span class="price-new"><?php echo $product['special']; ?></span> <span class="price-old"><?php echo $product['price']; ?></span>
 							<?php } ?>
+              <?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme638/parcelamento.php'; ?>
 							<?php if ($product['tax']) { ?>
 								<span class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
 							<?php } ?>
 						</div>
 					<?php } ?>
-					
-					
+
+
 					<div class="rating"><?php if ($product['rating']) { ?>
 					  <?php for ($i = 1; $i <= 5; $i++) { ?>
 					  <?php if ($product['rating'] < $i) { ?>
@@ -409,7 +410,7 @@
 					  <?php } ?>
 					  <?php } ?>
 					<?php } ?></div>
-				
+
 				</div>
                 <div class="aside">
 					<?php if ($product['rating']) { ?>
@@ -430,22 +431,23 @@
 							<?php } else { ?>
 								<span class="price-new"><?php echo $product['special']; ?></span> <span class="price-old"><?php echo $product['price']; ?></span>
 							<?php } ?>
+              <?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme638/parcelamento.php'; ?>
 							<?php if ($product['tax']) { ?>
 								<span class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
 							<?php } ?>
 						</div>
 					<?php } ?>
-					<div class="cart-button">					
-						<button class="product-buttons" type="button" onclick="ajaxAdd($(this),<?php echo $product['product_id'] ?>);"><i class="material-icons-add"></i> <span><?php echo $button_cart; ?></span></button>						
+					<div class="cart-button">
+						<button class="product-buttons" type="button" onclick="ajaxAdd($(this),<?php echo $product['product_id'] ?>);"><i class="material-icons-add"></i> <span><?php echo $button_cart; ?></span></button>
 						<button class="btn-icon" type="button" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="material-icons-shuffle"></i></button>
 						<button class="btn-icon" type="button" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="material-icons-favorite_border"></i></button>
 					</div>
 				</div>
-				
-                <div class="cart-button">					
-					<button class="product-buttons" type="button" onclick="ajaxAdd($(this),<?php echo $product['product_id'] ?>);"><i class="material-icons-add"></i> <span><?php echo $button_cart; ?></span></button>					
-					<button class="btn-icon" type="button" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="material-icons-shuffle"></i></button>						
-					<button class="btn-icon" type="button" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="material-icons-favorite_border"></i></button>						
+
+                <div class="cart-button">
+					<button class="product-buttons" type="button" onclick="ajaxAdd($(this),<?php echo $product['product_id'] ?>);"><i class="material-icons-add"></i> <span><?php echo $button_cart; ?></span></button>
+					<button class="btn-icon" type="button" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="material-icons-shuffle"></i></button>
+					<button class="btn-icon" type="button" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="material-icons-favorite_border"></i></button>
                 </div>
             </div>
 				<div class="clear"></div>

@@ -1,29 +1,28 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://brincodeprincesas.com.br/');
+define('HTTP_SERVER', 'http://brincodeprincesas.lojavirtual.local/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://brincodeprincesas.com.br/');
+define('HTTPS_SERVER', 'http://brincodeprincesas.lojavirtual.local/');
 
 // DIR
-define('DIR_APPLICATION', '/srv/httpd/brincodeprincesas.com.br/public/catalog/');
-define('DIR_SYSTEM', '/srv/httpd/brincodeprincesas.com.br/public/system/');
-define('DIR_LANGUAGE', '/srv/httpd/brincodeprincesas.com.br/public/catalog/language/');
-define('DIR_TEMPLATE', '/srv/httpd/brincodeprincesas.com.br/public/catalog/view/theme/');
-define('DIR_CONFIG', '/srv/httpd/brincodeprincesas.com.br/public/system/config/');
-define('DIR_IMAGE', '/srv/httpd/brincodeprincesas.com.br/public/image/');
-define('DIR_CACHE', '/srv/httpd/brincodeprincesas.com.br/public/system/storage/cache/');
-define('DIR_DOWNLOAD', '/srv/httpd/brincodeprincesas.com.br/public/system/storage/download/');
-define('DIR_LOGS', '/srv/httpd/brincodeprincesas.com.br/public/system/storage/logs/');
-define('DIR_MODIFICATION', '/srv/httpd/brincodeprincesas.com.br/public/system/storage/modification/');
-define('DIR_UPLOAD', '/srv/httpd/brincodeprincesas.com.br/public/system/storage/upload/');
+define('DIR_APPLICATION', '/Users/fernandomendes/github/brincodeprincesas/public/catalog/');
+define('DIR_SYSTEM', '/Users/fernandomendes/github/brincodeprincesas/public/system/');
+define('DIR_LANGUAGE', '/Users/fernandomendes/github/brincodeprincesas/public/catalog/language/');
+define('DIR_TEMPLATE', '/Users/fernandomendes/github/brincodeprincesas/public/catalog/view/theme/');
+define('DIR_CONFIG', '/Users/fernandomendes/github/brincodeprincesas/public/system/config/');
+define('DIR_IMAGE', '/Users/fernandomendes/github/brincodeprincesas/public/image/');
+define('DIR_CACHE', '/Users/fernandomendes/github/brincodeprincesas/public/system/storage/cache/');
+define('DIR_DOWNLOAD', '/Users/fernandomendes/github/brincodeprincesas/public/system/storage/download/');
+define('DIR_LOGS', '/Users/fernandomendes/github/brincodeprincesas/public/system/storage/logs/');
+define('DIR_MODIFICATION', '/Users/fernandomendes/github/brincodeprincesas/public/system/storage/modification/');
+define('DIR_UPLOAD', '/Users/fernandomendes/github/brincodeprincesas/public/system/storage/upload/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'brincodeprin');
-define('DB_PASSWORD', 'u3fewh7gfy3');
-define('DB_DATABASE', 'brincodeprincesas');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', 'root');
+define('DB_DATABASE', 'brincodeprincesas2');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
-

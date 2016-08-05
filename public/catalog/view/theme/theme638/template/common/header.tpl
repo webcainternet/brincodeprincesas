@@ -72,26 +72,6 @@
         </a>
     </div>
     <![endif]-->
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.6&appId=456589514493827";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<!--Start of Zopim Live Chat Script-->
-<script type="text/javascript">
-window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
-d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
-_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
-$.src="//v2.zopim.com/?3rEhFBg0lqNUnNu52udR3cLrEqmq80uY";z.t=+new Date;$.
-type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
-</script>
-<!--End of Zopim Live Chat Script-->
-
     <?php foreach ($analytics as $analytic) { ?>
         <?php echo $analytic; ?>
     <?php } ?>
@@ -102,12 +82,12 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 <div id="page">
     <header>
 			<div class="top-header">
-
+			
 				<nav id="top-links" class="nav toggle-wrap">
-
+				
 					<a class="toggle material-design-settings49" href='#'></a>
 					<ul class="toggle_cont">
-						<li> <a href="<?php echo $home; ?>" title="<?php echo $text_home; ?>" > <i class="material-design-home149"></i> <span><?php echo $text_home; ?></span> </a> </li>
+						<li> <a href="<?php echo $home; ?>" title="<?php echo $text_home; ?>" > <i class="material-design-home149"></i> <span><?php echo $text_home; ?></span> </a> </li>					
 						<li> <a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>" > <i class="material-design-user157"></i> <span><?php echo $text_account; ?></span> </a> </li>
 						<li> <a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"> <i class="material-icons-shopping_basket"></i> <span><?php echo $text_shopping_cart; ?></span> </a> </li>
 						<li> <a href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>"> <i class="material-design-forward18"></i> <span><?php echo $text_checkout; ?> </span> </a> </li>
@@ -117,47 +97,46 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 							<a href="<?php echo $login; ?>"><i class="material-icons-vpn_key"></i> <span><?php echo $text_login; ?></span></a>
 						<?php } ?></li>
 					</ul>
-
+					
 				</nav>
-
+				
 				<div class="pull-right">
-
+				
 					<?php echo $search; ?>
-
-					<div class="button-top">
+					
+					<div class="button-top">				
 						<?php echo $language; ?>
-						<?php echo $currency; ?>
+						<?php echo $currency; ?>						
 					</div>
-
+					
 				</div>
-
+				
 			</div>
-
+			
 			<div id="stuck" class="stuck-menu">
-
+			
 			<div id="logo" class="logo">
 				<?php if ($logo) { ?>
-					<a href="<?php echo $home; ?>"><img style="    height: 85px;
-    margin-top: -25px;" src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive"/></a>
+					<a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive"/></a>
 				<?php } else { ?>
 					<h1> <a href="<?php echo $home; ?>"><?php echo $name; ?></a> </h1>
 				<?php } ?>
 			</div>
-
-			<div class="pull-right">
-
+			
+			<div class="pull-right">							
+				
 				<?php if ($logged) { ?>
 					<a class="login-button" href="<?php echo $logout; ?>" data-toggle="tooltip" title="<?php echo $text_logout; ?>"><i class="fa fa-sign-out"></i></a>
 				<?php } else { ?>
 					<a class="login-button" href="<?php echo $login; ?>" data-toggle="tooltip" title="<?php echo $text_login; ?>" ><i class="material-icons-vpn_key"></i></a>
 				<?php } ?>
-
+				
 				<?php echo $cart; ?>
-
+				
 				<a class="button-wishlist" href="<?php echo $wishlist; ?>" id="wishlist-total"><?php echo $text_wishlist; ?></a>
-
+				
 			</div>
-
+			
 			<?php if ($categories) { ?>
 				<div id="tm_menu" class="nav__primary">
 					<?php if ($categories_tm) {
@@ -166,7 +145,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 					<div class="clear"></div>
 				</div>
 			<?php } ?>
-
+			
 		</div>
 
         <?php if ($categories) { ?>
@@ -178,9 +157,12 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                 </div>
             </div>
         <?php } ?>
-
+        
 
         <?php if ($header_top){?>
             <div class="header_modules"><?php echo $header_top;?></div>
         <?php }?>
     </header>
+
+
+
