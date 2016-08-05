@@ -23,7 +23,7 @@ $qtd_parcelas = 3;
 $juros = 0;
 $moeda_da_loja = 'R$ ';
 $tipo_de_calculo = 0;
-$parcela_minima = 0.00;
+$parcela_minima = 1.00;
 
 if (!isset($product['price'])) {
 	$product['price'] = $price;
